@@ -21,6 +21,7 @@
 		9125F22F18DF6921002C573F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9125F21118DF6921002C573F /* UIKit.framework */; };
 		9125F23718DF6921002C573F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9125F23518DF6921002C573F /* InfoPlist.strings */; };
 		9125F23918DF6921002C573F /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9125F23818DF6921002C573F /* GitTestTests.m */; };
+		9125F24418DF6D77002C573F /* BTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9125F24318DF6D77002C573F /* BTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9125F23418DF6921002C573F /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		9125F23618DF6921002C573F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9125F23818DF6921002C573F /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		9125F24218DF6D77002C573F /* BTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTest.h; sourceTree = "<group>"; };
+		9125F24318DF6D77002C573F /* BTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9125F21F18DF6921002C573F /* Main.storyboard */,
 				9125F22218DF6921002C573F /* BTViewController.h */,
 				9125F22318DF6921002C573F /* BTViewController.m */,
+				9125F24218DF6D77002C573F /* BTTest.h */,
+				9125F24318DF6D77002C573F /* BTTest.m */,
 				9125F22518DF6921002C573F /* Images.xcassets */,
 				9125F21418DF6921002C573F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9125F22418DF6921002C573F /* BTViewController.m in Sources */,
+				9125F24418DF6D77002C573F /* BTTest.m in Sources */,
 				9125F21E18DF6921002C573F /* BTAppDelegate.m in Sources */,
 				9125F21A18DF6921002C573F /* main.m in Sources */,
 			);
